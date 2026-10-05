@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Peta Penempatan KNMP Tahap I</title>
+<meta name="author" content="Instagram @gamasuk_aklan">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Albert+Sans:wght@400;500;600&display=swap">
 <style>
 :root{--bg0:#eef3f7;--bg1:#d5e3ee;--panel:rgba(255,255,255,.9);--ink:#0c2233;--mute:#5a7183;--line:rgba(12,34,51,.12);--red:#d7261e;--ocean:#cddfeb;--land:#fbfcfd;--coast:#7d9bb0;--grid:rgba(12,34,51,.08);--arc:#d7261e;--head:#ff8a1f;--origin:#0b6b8a;--rim:#6fa6c8;--rima:.5;--chip:rgba(12,34,51,.06);
@@ -54,6 +55,9 @@ h1 em{font-style:normal;color:var(--red)}
 .ln{width:18px;height:2px;background:linear-gradient(90deg,transparent,var(--arc));display:inline-block}
 .tag{position:fixed;pointer-events:none;transform:translate(-50%,-135%);background:var(--panel);border:1px solid var(--line);padding:2px 8px;border-radius:6px;font-size:12px;font-weight:600;white-space:nowrap;display:none}
 #tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--bg0);padding:5px 9px;border-radius:7px;font-size:12px;display:none;max-width:240px;z-index:5}
+.credit{margin:0;padding:8px 16px 10px;border-top:1px solid var(--line);font-size:12px;color:var(--mute);text-align:center}
+.credit a{color:var(--red);font-weight:600;text-decoration:none}
+.credit a:hover{text-decoration:underline}
 .stats+.tot{margin:8px 0 0;font-size:12px;color:var(--mute)}
 .tot b{color:var(--ink);font-weight:600}
 #card .rt{position:relative;margin:10px 0 2px;padding-left:20px}
@@ -89,7 +93,7 @@ h1 em{font-style:normal;color:var(--red)}
 #panel{left:8px;right:8px;width:auto;top:auto;height:46%;bottom:calc(8px + env(safe-area-inset-bottom,0px))}
 #legend{display:none}
 .hd{padding:12px 14px 8px}h1{font-size:19px}.sub{display:none}.stats{margin-top:8px}.stats b{font-size:18px}
-.note{display:none}.stats+.tot{margin-top:6px}}
+.note{display:none}.stats+.tot{margin-top:6px}.credit{padding:5px 14px 7px}}
 </style>
 </head>
 <body>
@@ -108,6 +112,7 @@ h1 em{font-style:normal;color:var(--red)}
   </div>
   <ul id="list"></ul>
   <p class="note" id="note"></p>
+  <p class="credit">Dibuat oleh <a href="https://www.instagram.com/gamasuk_aklan" target="_blank" rel="noopener">Instagram @gamasuk_aklan</a></p>
 </aside>
 <div id="legend">
   <div><span class="dt" style="background:var(--red)"></span>Titik penempatan</div>
